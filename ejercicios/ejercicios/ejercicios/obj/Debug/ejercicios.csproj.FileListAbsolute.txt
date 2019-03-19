@@ -1,0 +1,7 @@
+C:\Users\PC\Documents\Programacion\Csharp\ejercicios\ejercicios\ejercicios\obj\Debug\ejercicios.csprojAssemblyReference.cache
+C:\Users\PC\Documents\Programacion\Csharp\ejercicios\ejercicios\ejercicios\obj\Debug\ejercicios.csproj.CoreCompileInputs.cache
+C:\Users\PC\Documents\Programacion\Csharp\ejercicios\ejercicios\ejercicios\bin\Debug\ejercicios.exe.config
+C:\Users\PC\Documents\Programacion\Csharp\ejercicios\ejercicios\ejercicios\bin\Debug\ejercicios.exe
+C:\Users\PC\Documents\Programacion\Csharp\ejercicios\ejercicios\ejercicios\bin\Debug\ejercicios.pdb
+C:\Users\PC\Documents\Programacion\Csharp\ejercicios\ejercicios\ejercicios\obj\Debug\ejercicios.exe
+C:\Users\PC\Documents\Programacion\Csharp\ejercicios\ejercicios\ejercicios\obj\Debug\ejercicios.pdb
