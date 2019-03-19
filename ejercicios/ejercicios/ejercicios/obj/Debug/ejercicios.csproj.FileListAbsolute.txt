@@ -5,3 +5,10 @@ C:\Users\PC\Documents\Programacion\Csharp\ejercicios\ejercicios\ejercicios\bin\D
 C:\Users\PC\Documents\Programacion\Csharp\ejercicios\ejercicios\ejercicios\bin\Debug\ejercicios.pdb
 C:\Users\PC\Documents\Programacion\Csharp\ejercicios\ejercicios\ejercicios\obj\Debug\ejercicios.exe
 C:\Users\PC\Documents\Programacion\Csharp\ejercicios\ejercicios\ejercicios\obj\Debug\ejercicios.pdb
+C:\Users\alumno\Desktop\Fede\Csharp\ejercicios\ejercicios\ejercicios\bin\Debug\ejercicios.exe.config
+C:\Users\alumno\Desktop\Fede\Csharp\ejercicios\ejercicios\ejercicios\bin\Debug\ejercicios.exe
+C:\Users\alumno\Desktop\Fede\Csharp\ejercicios\ejercicios\ejercicios\bin\Debug\ejercicios.pdb
+C:\Users\alumno\Desktop\Fede\Csharp\ejercicios\ejercicios\ejercicios\obj\Debug\ejercicios.csprojAssemblyReference.cache
+C:\Users\alumno\Desktop\Fede\Csharp\ejercicios\ejercicios\ejercicios\obj\Debug\ejercicios.csproj.CoreCompileInputs.cache
+C:\Users\alumno\Desktop\Fede\Csharp\ejercicios\ejercicios\ejercicios\obj\Debug\ejercicios.exe
+C:\Users\alumno\Desktop\Fede\Csharp\ejercicios\ejercicios\ejercicios\obj\Debug\ejercicios.pdb
