@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -228,8 +228,11 @@ namespace ejercicios
             {
                 Console.WriteLine("\nERROR. ¡Reingresa un número valido! : ");
             }
-            diasVividos = (2019 - año) * 365;
-            diasVividos += dia; 
+            diasVividos = (2019 - (año+1)) * 365;
+            if (mes > 2)
+            {
+              año++;
+            }
             while (año < 2019)
             {
                 if ((año % 100 == 0 && año % 400 == 0) || año % 4 == 0)
@@ -238,45 +241,64 @@ namespace ejercicios
                 }
                 año++;
             }
+            diasVividos += conAñosBis;
+            conAñosBis = localTime.DayOfYear;
             switch (mes)
             {
+                case 1:
+                    diasVividos += 365-dia;
+                    break;
                 case 2:
-                    diasVividos += 31;
+                    diasVividos += 334-dia;
                     break;
                 case 3:
-                    diasVividos += 59;
+                    diasVividos += 306-dia;
                     break;
                 case 4:
-                    diasVividos += 90;
+                    diasVividos += 275-dia;
                     break;
                 case 5:
-                    diasVividos += 120;
+                    diasVividos += 245-dia;
                     break;
                 case 6:
-                    diasVividos += 151;
+                    diasVividos += 214-dia;
                     break;
                 case 7:
-                    diasVividos += 182;
+                    diasVividos += 184-dia;
                     break;
                 case 8:
-                    diasVividos += 212;
+                    diasVividos +=  153-dia;
                     break;
                 case 9:
-                    diasVividos += 243;
+                    diasVividos += 122-dia;
                     break;
                 case 10:
-                    diasVividos += 273;
+                    diasVividos += 92-dia;
                     break;
                 case 11:
-                    diasVividos += 304;
+                    diasVividos += 61-dia;
                     break;
                 case 12:
-                    diasVividos += 334;
+                    diasVividos += 31-dia;
                     break;
             }   
-            Console.WriteLine("USTED VIVIO {0} DIAS ",diasVividos);
+            Console.WriteLine("USTED VIVIO {0} DIAS ",diasVividos+conAñosBis);
 
         }
+        static void Ejercicio_09()
+        {
+          int ingreso;
+          int i = 0;
+          bool success;
+          Console.WriteLine("\nINGRESE UN NUMERO: ");
+          while (success = int.TryParse(Console.ReadLine(), out ingreso) == false)
+          {
+            Console.WriteLine("\nERROR. ¡Reingresar número! : ");
+          }
+          for (i = 1; i < ingreso; i++)
+          {
 
+          }
+    }
     }
 }
