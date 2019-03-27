@@ -16,10 +16,9 @@ namespace Clase_2
         static void Main(string[] args)
         {
             Console.Title = "Ejercicio Clase 2";
-      Calculador cal = new Calculador();
+            Calculador cal = new Calculador();
             int key;
             bool continuar = true;
-            string valor;
             do
             {
                 // Menú
@@ -44,7 +43,6 @@ namespace Clase_2
                     case 1:
                         Console.WriteLine("Ingrese un valor Binario ASCII a convertir a Entero: ");
                         string ingreso;
-                        Console.WriteLine("Error,Intente nuevamente.Ingrese un valor Binario ASCII a convertir a Entero: ");
                         ingreso=Console.ReadLine();
                         Console.WriteLine(Conversor.BinarioEntero(ingreso));
                         cal.Acumular(ingreso);
@@ -57,15 +55,16 @@ namespace Clase_2
                             Console.WriteLine(Conversor.EnteroBinario(converso));
                         else
                             Console.WriteLine("¡Valor inválido!");
-                        Console.ReadKey();
+                            Console.ReadKey();
                         break;
                     case 3:
                         Console.WriteLine(cal.GetRasultadoBinario());
+                        Console.ReadKey();
                         break;
                     case 4:
                         Console.WriteLine(cal.GetResultadoEntero());
+                        Console.ReadKey();
                         break;
-
                     case 5:
                         continuar = false;
                         break;

@@ -16,15 +16,23 @@ namespace Clase_2
     }
     public void Acumular(string binario)
     {
-      int binTransformado;
-      if(int.TryParse(binario,out binTransformado))
+      int entero = 0;
+
+      for (int i = 1; i <= binario.Length; i++)
       {
-        acumulador += binTransformado;
+        entero += int.Parse(binario[i - 1].ToString()) * (int)Math.Pow(2, binario.Length - i);
       }
+      acumulador += entero;
     }
     public string GetRasultadoBinario()
     {
-      return Convert.ToString(acumulador, 2);
+      string binario="";
+      while (acumulador > 0)
+      {
+        binario = (acumulador % 2).ToString() + binario;
+        acumulador = acumulador / 2;
+      }
+      return binario;
     }
     public int GetResultadoEntero()
     {
