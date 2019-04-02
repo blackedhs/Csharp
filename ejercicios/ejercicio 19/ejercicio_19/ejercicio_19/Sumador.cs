@@ -14,16 +14,19 @@ namespace ejercicio_19
     {
       return s.cantidadSumas;
     }
- /*
-    public bool OperadorO(Sumador s1,Sumador s2)
+ 
+    public static bool operator  |(Sumador s1,Sumador s2)
     {
+      if (s1.cantidadSumas == s2.cantidadSumas)
+      {
+        return true;
+      }
       return false;
     }
-    public long OperadorSuma(Sumador s1,Sumador s2)
+    public static long operator + (Sumador s1,Sumador s2)
     {
-      return 1;
+      return s1.cantidadSumas+s2.cantidadSumas;
     }
- */
     public Sumador():this(0)
     {
 

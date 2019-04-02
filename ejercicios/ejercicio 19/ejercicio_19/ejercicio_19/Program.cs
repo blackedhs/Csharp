@@ -21,6 +21,9 @@ namespace ejercicio_19
       Console.WriteLine(calculo2.Sumar("Soy ", "sumador 2"));
       Console.WriteLine((int)(calculo2));
       Console.ReadKey();
+      Console.WriteLine(calculo+calculo2);
+      Console.WriteLine(calculo | calculo2);
+      Console.ReadKey();
     }
   }
 }
