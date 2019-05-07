@@ -6,7 +6,12 @@ using System.Threading.Tasks;
 
 namespace Entidades
 {
-  class Calculadora
-  {
-  }
+    public enum ETipoProducto
+    {
+        Galletita,
+        Gaseosa,
+        Jugo,
+        Harina,
+        Todos
+    }
 }

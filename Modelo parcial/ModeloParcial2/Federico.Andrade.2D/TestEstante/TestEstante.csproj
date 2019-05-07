@@ -4,13 +4,14 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{A01C4A15-B556-4ED0-B460-52583D4EDE31}</ProjectGuid>
+    <ProjectGuid>{C766A875-73DF-40BC-8E1B-4A8092F3DD90}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>trabajoPractico1</RootNamespace>
-    <AssemblyName>trabajoPractico1</AssemblyName>
+    <RootNamespace>TestEstante</RootNamespace>
+    <AssemblyName>TestEstante</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <PlatformTarget>AnyCPU</PlatformTarget>
@@ -50,7 +51,7 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\Entidades\Entidades.csproj">
-      <Project>{2c013bd2-c027-45b5-a4e2-117d857bb182}</Project>
+      <Project>{eee64a18-11c0-4830-9442-6d81fdf2a466}</Project>
       <Name>Entidades</Name>
     </ProjectReference>
   </ItemGroup>
