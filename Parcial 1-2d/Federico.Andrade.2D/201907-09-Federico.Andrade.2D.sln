@@ -5,9 +5,9 @@ VisualStudioVersion = 15.0.27703.2047
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Entidades", "Entidades\Entidades.csproj", "{52907EB2-76BA-4FC8-A8C8-4860883DDED5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleApp1", "ConsoleApp1\ConsoleApp1.csproj", "{1ABA8CF8-5156-4DDF-A654-649952CB44CF}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Test", "ConsoleApp1\Test.csproj", "{1ABA8CF8-5156-4DDF-A654-649952CB44CF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WindowsFormsApp1", "WindowsFormsApp1\WindowsFormsApp1.csproj", "{A4788691-7122-4673-85BF-C85B7E479A27}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Gui", "WindowsFormsApp1\Gui.csproj", "{A4788691-7122-4673-85BF-C85B7E479A27}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
