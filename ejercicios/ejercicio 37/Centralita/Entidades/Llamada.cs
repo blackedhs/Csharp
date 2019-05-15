@@ -6,17 +6,17 @@ using System.Threading.Tasks;
 
 namespace Entidades
 {
-    public class Llamada
-    {
-      public enum TipoDeLlamada
+  public class Llamada
+  {
+    public enum TipoLlamada
     {
       Local,
-      Provincia,
+      Provincial,
       Todas
     }
-    private float duracion;
-    private string nroDestino;
-    private string nroOrigen;
+    protected float duracion;
+    protected string nroDestino;
+    protected string nroOrigen;
 
     public string NroOrigen
     {
@@ -35,21 +35,21 @@ namespace Entidades
       get { return duracion; }
       set { duracion = value; }
     }
-    public Llamada(float duracion,string nroDestino,string nroOrigen)
+    public Llamada(float duracion, string nroDestino, string nroOrigen)
     {
       Duracion = duracion;
       NroDestino = nroDestino;
-      NroOrigen = NroOrigen;
+      NroOrigen = nroOrigen;
     }
     public string Mostrar()
     {
-      StringBuilder sb = new StringBuilder();
-      sb.AppendLine("Duracion: " + Duracion);
-      sb.AppendLine("Numero Destino: " + NroDestino);
-      sb.AppendLine("Numero Origen " + NroOrigen);
-      return sb.ToString();
+        StringBuilder sb = new StringBuilder();
+        sb.AppendLine("Duracion : " + Duracion);
+        sb.AppendLine("Numero Destino: " + NroDestino);
+        sb.AppendLine("Numero Origen : " + NroOrigen);
+        return sb.ToString(); 
     }
-     public int OrdenarPorDuracion(Llamada llamada1,Llamada llamada2)
+    public static int OrdenarPorDuracion(Llamada llamada1, Llamada llamada2)
     {
       return llamada1.Duracion > llamada2.Duracion ? 1 : -1;
     }

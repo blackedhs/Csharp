@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.27703.2047
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Entidades", "Entidades\Entidades.csproj", "{4F55D748-36D8-48C2-8B86-79FF49E7B82F}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Central Telefonica", "Entidades\Central Telefonica.csproj", "{4F55D748-36D8-48C2-8B86-79FF49E7B82F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Test", "Test\Test.csproj", "{9CFB4DFA-EBE0-493B-BC5E-06991FF8A63A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{4F55D748-36D8-48C2-8B86-79FF49E7B82F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4F55D748-36D8-48C2-8B86-79FF49E7B82F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4F55D748-36D8-48C2-8B86-79FF49E7B82F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9CFB4DFA-EBE0-493B-BC5E-06991FF8A63A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9CFB4DFA-EBE0-493B-BC5E-06991FF8A63A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9CFB4DFA-EBE0-493B-BC5E-06991FF8A63A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9CFB4DFA-EBE0-493B-BC5E-06991FF8A63A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

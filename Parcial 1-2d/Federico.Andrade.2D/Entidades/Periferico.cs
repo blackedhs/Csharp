@@ -28,7 +28,7 @@ namespace Entidades
         }
         public static bool operator !=(Periferico p1, Periferico p2)
         {
-            return p1.marca == p2.marca && p1.modelo == p2.modelo ? false : true;
+            return !(p1 == p2);
         }
         public Periferico(string marca,string modelo,Econector conector)
         {

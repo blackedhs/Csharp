@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -60,7 +60,7 @@ namespace Entidades
         /// <returns></returns>
         public static bool operator !=(Teclado t, EDistribucion distribucion)
         {
-            return t.distribucion == distribucion ? false: true;
+            return !(t==distribucion);
         }
         /// <summary>
         /// compara q la distrbucion de un teclado sea igual a la ingresada x param
