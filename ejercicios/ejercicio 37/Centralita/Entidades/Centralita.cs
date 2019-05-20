@@ -89,11 +89,10 @@ namespace Entidades
     {
       StringBuilder sb = new StringBuilder();
       sb.AppendLine("*****************************************************");
-      sb.AppendLine("Razon social : " + this.razonSocial);
-      sb.AppendLine("Ganancia Total : " + GanaciasPorTotal);
-      sb.AppendLine("Ganancias Local : " + GananciasPorLocal);
-      sb.AppendLine("Ganancias Provincial : " + GananciasPorProvincial);
-      sb.AppendLine("Ganancias local : " + GananciasPorLocal);
+      sb.AppendLine("Razon social         : " + this.razonSocial);
+      sb.AppendLine("Ganancia Total       : " + CalcularGanancia(Llamada.TipoLlamada.Todas));
+      sb.AppendLine("Ganancias Local      : " + CalcularGanancia(Llamada.TipoLlamada.Local));
+      sb.AppendLine("Ganancias Provincial : " + CalcularGanancia(Llamada.TipoLlamada.Provincial));
       foreach(Llamada llamada in listaDeLlamadas)
       {
         if (llamada is Local)

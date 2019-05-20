@@ -37,8 +37,8 @@ namespace Entidades
     {
       StringBuilder sb = new StringBuilder();
       sb.AppendLine(base.Mostrar());
-      sb.AppendLine("Franja Horaria: " + this.franjaHoraria);
-      sb.AppendLine("Costo: " + CostoLlamada);
+      sb.AppendLine("Franja Horaria       : " + this.franjaHoraria);
+      sb.AppendLine("Costo                : " + CostoLlamada);
       return sb.ToString();
     }
     public Provincial(Franja miFranja,Llamada llamada) : base(llamada.Duracion, llamada.NroDestino,llamada.NroOrigen)

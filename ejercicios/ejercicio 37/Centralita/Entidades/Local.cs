@@ -26,7 +26,7 @@ namespace Entidades
     {
       StringBuilder sb = new StringBuilder();
       sb.AppendLine(base.Mostrar());
-      sb.AppendLine("Costo: " + CostoLlamada);
+      sb.AppendLine("Costo                : " + CostoLlamada);
       return sb.ToString();
     }
     private float CalcularCosto()
