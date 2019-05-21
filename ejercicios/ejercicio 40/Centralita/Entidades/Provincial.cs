@@ -15,7 +15,7 @@ namespace Entidades
             Franja_3
         }
         protected Franja franjaHoraria;
-        public float CostoLlamada { get { return CalcularCosto(); } }
+        public override float CostoLlamada { get { return CalcularCosto(); } }
         private float CalcularCosto()
         {
             float valor = 0;
@@ -33,7 +33,7 @@ namespace Entidades
             }
             return valor;
         }
-        public string Mostrar()
+        protected override string Mostrar()
         {
             StringBuilder sb = new StringBuilder();
             sb.AppendLine("*********** Provincial **************");
@@ -43,12 +43,20 @@ namespace Entidades
             
             return sb.ToString();
         }
-        public Provincial(Franja miFranja, Llamada llamada) : base(llamada.Duracion, llamada.NroDestino, llamada.NroOrigen)
+        public Provincial(Franja miFranja, Llamada llamada) : this(llamada.NroOrigen,miFranja, llamada.Duracion, llamada.NroDestino)
+        {            
+        }
+        public Provincial(string origen, Franja miFranja, float duracion, string destino) :base(duracion, destino, origen)
         {
             this.franjaHoraria = miFranja;
         }
-        public Provincial(string origen, Franja mifranja, float duracion, string destino) : this(mifranja, new Llamada(duracion, destino, origen))
+        public bool Equals(Llamada llamada)
         {
+            return llamada is Provincial;
+        }
+        public override string ToString()
+        {
+            return this.Mostrar();
         }
     }
 }

@@ -93,6 +93,7 @@ namespace Entidades
       sb.AppendLine("Ganancia Total       : " + CalcularGanancia(Llamada.TipoLlamada.Todas));
       sb.AppendLine("Ganancias Local      : " + CalcularGanancia(Llamada.TipoLlamada.Local));
       sb.AppendLine("Ganancias Provincial : " + CalcularGanancia(Llamada.TipoLlamada.Provincial));
+      sb.AppendLine("*****************************************************");
       foreach(Llamada llamada in listaDeLlamadas)
       {
         if (llamada is Local)

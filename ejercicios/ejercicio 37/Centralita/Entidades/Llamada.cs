@@ -44,7 +44,7 @@ namespace Entidades
     public string Mostrar()
     {
         StringBuilder sb = new StringBuilder();
-        sb.AppendLine("Duracion : " + Duracion);
+        sb.AppendLine("Duracion      : " + Duracion);
         sb.AppendLine("Numero Destino: " + NroDestino);
         sb.AppendLine("Numero Origen : " + NroOrigen);
         return sb.ToString(); 

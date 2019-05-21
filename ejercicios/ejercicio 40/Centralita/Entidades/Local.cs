@@ -11,18 +11,19 @@ namespace Entidades
         protected float costo;
         private float costoLlamada;
 
-        public float CostoLlamada
+        public override float CostoLlamada
         {
             get { return CalcularCosto(); }
         }
-        public Local(Llamada llamada, float costo) : base(llamada.Duracion, llamada.NroDestino, llamada.NroOrigen)
+        public Local(Llamada llamada, float costo) : this(llamada.NroOrigen, llamada.Duracion, llamada.NroDestino,costo)
+        {
+            
+        }
+        public Local(string origen, float duracion, string destino, float costo) : base(duracion, destino, origen)
         {
             this.costo = costo;
         }
-        public Local(string origen, float duracion, string destino, float costo) : this(new Llamada(duracion, destino, origen), costo)
-        {
-        }
-        public string Mostrar()
+        protected override string Mostrar()
         {
             StringBuilder sb = new StringBuilder();
             sb.AppendLine("*********** Local **************");
@@ -34,6 +35,14 @@ namespace Entidades
         private float CalcularCosto()
         {
             return Duracion * this.costo;
+        }
+        public bool Equals(Llamada llamada)
+        {
+            return llamada is Local;
+        }
+        public override string ToString()
+        {
+            return this.Mostrar();
         }
     }
 }
