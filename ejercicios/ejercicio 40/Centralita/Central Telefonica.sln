@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Central Telefonica", "Entid
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Test", "Test\Test.csproj", "{9CFB4DFA-EBE0-493B-BC5E-06991FF8A63A}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WindowsFormsApp1", "WindowsFormsApp1\WindowsFormsApp1.csproj", "{4DDB3E4B-E56C-4C95-B7C0-1A9257AB4F03}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{9CFB4DFA-EBE0-493B-BC5E-06991FF8A63A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9CFB4DFA-EBE0-493B-BC5E-06991FF8A63A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9CFB4DFA-EBE0-493B-BC5E-06991FF8A63A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4DDB3E4B-E56C-4C95-B7C0-1A9257AB4F03}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4DDB3E4B-E56C-4C95-B7C0-1A9257AB4F03}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4DDB3E4B-E56C-4C95-B7C0-1A9257AB4F03}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4DDB3E4B-E56C-4C95-B7C0-1A9257AB4F03}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
