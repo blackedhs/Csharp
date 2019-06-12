@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27703.2047
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SinHilos", "SinHilos\SinHilos.csproj", "{B69BAB80-0231-43BA-AA44-6621A9A11C58}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConHilos", "ConHilos\ConHilos.csproj", "{1B4DDA1E-177D-4B0C-B434-41733BEE8727}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B69BAB80-0231-43BA-AA44-6621A9A11C58}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B69BAB80-0231-43BA-AA44-6621A9A11C58}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B69BAB80-0231-43BA-AA44-6621A9A11C58}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B69BAB80-0231-43BA-AA44-6621A9A11C58}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1B4DDA1E-177D-4B0C-B434-41733BEE8727}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1B4DDA1E-177D-4B0C-B434-41733BEE8727}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1B4DDA1E-177D-4B0C-B434-41733BEE8727}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1B4DDA1E-177D-4B0C-B434-41733BEE8727}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E8D80EC4-D273-42D2-BF91-AAC231D60305}
+	EndGlobalSection
+EndGlobal
